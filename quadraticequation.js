@@ -1,0 +1,8 @@
+const a = 1; b = -6; c = 9;  // stands for x**2 - 6*x + 9 = 0
+let solutionA = solutionB = 0
+// your code goes here
+
+d = (a**2) - (4*b*c);
+solutionA = (-b-Math.sqrt(d))/(2*a); 
+solutionB = (-b+Math.sqrt(d))/(2*a);
+console.log(solutionA, solutionB);

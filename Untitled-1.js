@@ -1,5 +1,8 @@
 const num = 123
 let sum = 0
 // your code goes here
-sum=num[0]+num[1]+num[2]
-console.log(sum);
+console.log(num);
+    sum=Math.floor(num%10)+Math.floor(num/10%10)+Math.floor(num/100);
+    console.log(sum);
+
+

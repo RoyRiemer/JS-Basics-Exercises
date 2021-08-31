@@ -4,3 +4,5 @@ let lowest=Math.min.apply(null,grades);
 let highest=Math.max.apply(null,grades);
 let range=highest-lowest;
 console.log(range);
+let gradesNew=grades.sort(function(a,b){return a-b})
+console.log(gradesNew[4]);
